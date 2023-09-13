@@ -8,30 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-   <div class="row">
-      <div class="col-12">
-         <header>
-            header-12
-         </header>
-      </div>
-   </div>
-   <div class="row">
-      <div class="col-4">
-         <nav>nav-4</nav>
-      </div>
-      <div class="col-8">
-         <main>Content - 8</main>
-      </div>
-      
-   </div>
    
+<div class="container"> 
+    <!--flex-row por padrão vem alinhado para esquerda-->
+   <div class="d-flex flex-row">
+        <div class="p-2">1</div>
+        <div class="p-2">2</div>
+        <div class="p-2">3</div>
+   </div>
+
+<!--flex-row-reverse alinha para direita-->
+   <div class="d-flex flex-row-reverse">
+    <div class="p-2">1</div>
+    <div class="p-2">2</div>
+    <div class="p-2">3</div>
 </div>
 
-<style>
+<!--flex-sm-row-reverse alinha para direita acima da resolução sm-->
+<div class="d-flex flex-sm-row-reverse">
+    <div class="p-2">1</div>
+    <div class="p-2">2</div>
+    <div class="p-2">3</div>
+</div>
 
-</style>
-
+</div>
+  
 
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
